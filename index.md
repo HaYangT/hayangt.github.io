@@ -10,7 +10,7 @@ permalink: /
 한번 풀기 시작한 문제는 해결할 때까지 놓지 않고자 합니다.
 
 <p>
-  <<a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">Projects</a>
+  <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">Projects</a>
   <a class="btn btn-outline" href="{{ '/posts/' | relative_url }}">Blog</a>
   <a class="btn btn-outline" href="https://github.com/hayangt">GitHub</a>
 </p>
