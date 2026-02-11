@@ -45,13 +45,6 @@ permalink: /
 
 ---
 
-## Highlights
-- 실시간 환경에서 **지연을 제어하기 위한 구조적 선택**과 근거를 문서화
-- 오탐/미탐 이슈에 대해 **모델 판단 + 도메인 룰**로 보정
-- 
-
----
-
 ## Contact
 - GitHub: https://github.com/HaYangT
 - Email: juliago00@naver.com
