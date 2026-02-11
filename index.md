@@ -4,7 +4,6 @@ title: ""
 permalink: /
 ---
 
-<div class="landing">
 
 ## 고혜역 · Software Engineer
 한번 풀기 시작한 문제는 해결할 때까지 놓지 않고자 합니다.
@@ -56,5 +55,3 @@ permalink: /
 ## Contact
 - GitHub: https://github.com/HaYangT
 - Email: juliago00@naver.com
-
-</div>
