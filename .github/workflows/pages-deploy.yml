@@ -52,10 +52,10 @@ jobs:
 
       - name: Test site
         run: |
-          bundle exec htmlproofer _site --allow-missing-href
+          bundle exec htmlproofer _site \
+            --allow-missing-href \
             --disable-external \
             --allow-hash-href \
-            --ignore-empty-alt
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
