@@ -1,0 +1,19 @@
+.landing .btn {
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-right: 0.4rem;
+  border: 1px solid var(--main-border-color);
+}
+
+.landing .btn-primary {
+  background: var(--main-color);
+  color: #fff;
+  border-color: transparent;
+}
+
+.landing .btn-outline {
+  background: transparent;
+  color: var(--text-color);
+}

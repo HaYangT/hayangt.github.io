@@ -10,15 +10,15 @@ permalink: /
 한번 풀기 시작한 문제는 해결할 때까지 놓지 않고자 합니다.
 
 <p>
-  <a class="btn btn-primary" href="/projects/">Projects</a>
-  <a class="btn btn-outline" href="/posts/">Blog</a>
+  <<a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">Projects</a>
+  <a class="btn btn-outline" href="{{ '/posts/' | relative_url }}">Blog</a>
   <a class="btn btn-outline" href="https://github.com/hayangt">GitHub</a>
 </p>
 
 ---
 
 ## What I do
--**Frontend**: webRTC 개념을 적용한 프로젝트 경험
+- **Frontend**: webRTC 개념을 적용한 프로젝트 경험
 - **Backend**: Spring 기반 API/도메인 설계, 운영 관점 트러블슈팅
 
 ---
@@ -50,16 +50,6 @@ permalink: /
 - 실시간 환경에서 **지연을 제어하기 위한 구조적 선택**과 근거를 문서화
 - 오탐/미탐 이슈에 대해 **모델 판단 + 도메인 룰**로 보정
 - 
-
----
-
-## Latest Writing
-최근 글 5개:
-
-{% assign recent = site.posts | slice: 0, 5 %}
-{% for post in recent %}
-- [{{ post.title }}]({{ post.url }})
-{% endfor %}
 
 ---
 
