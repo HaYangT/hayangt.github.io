@@ -17,8 +17,8 @@ permalink: /
 ---
 
 ## What I do
-- **Frontend**: webRTC 개념을 적용한 프로젝트 경험
-- **Backend**: Spring 기반 API/도메인 설계, 운영 관점 트러블슈팅
+- **Frontend**: WebRTC를 사용한 프로젝트
+- **Backend**: Spring 기반 API/도메인 설계
 
 ---
 
