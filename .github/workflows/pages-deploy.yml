@@ -52,7 +52,7 @@ jobs:
 
       - name: Test site
         run: |
-          bundle exec htmlproofer _site \bundle exec htmlproofer _site --allow-missing-href true
+          bundle exec htmlproofer _site --allow-missing-href
             --disable-external \
             --allow-hash-href \
             --ignore-empty-alt
