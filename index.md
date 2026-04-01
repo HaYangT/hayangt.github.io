@@ -8,11 +8,7 @@ permalink: /
 ## 고혜역 · Software Engineer
 한번 풀기 시작한 문제는 해결할 때까지 놓지 않고자 합니다.
 
-<p>
-  <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">Projects</a>
-  <a class="btn btn-outline" href="{{ '/posts/' | relative_url }}">Blog</a>
-  <a class="btn btn-outline" href="https://github.com/hayangt">GitHub</a>
-</p>
+[Projects]({{ '/projects/' | relative_url }}) · [Blog]({{ '/posts/' | relative_url }}) · [GitHub](https://github.com/hayangt)
 
 ---
 
@@ -39,9 +35,7 @@ permalink: /
   - Electron에서 로컬 AI 서버 구동/헬스체크/프로세스 종료 처리
 - 링크: https://github.com/wonby1n/HearO
 
-<p>
-  <a class="btn btn-primary" href="/projects/">프로젝트 자세히</a>
-</p>
+[프로젝트 자세히](/projects/)
 
 ---
 
