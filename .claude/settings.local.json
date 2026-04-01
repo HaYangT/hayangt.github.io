@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle show:*)",
+      "Bash(gem contents:*)",
+      "Bash(gem environment:*)",
+      "Bash(where ruby:*)",
+      "Bash(ruby -e \"puts Gem.default_dir\")",
+      "Bash(ruby -e \"puts Gem::Specification.find_by_name\\(''jekyll-theme-chirpy''\\).gem_dir\")",
+      "Bash(ls /c/Ruby*/lib/ruby/gems/*/gems/jekyll-theme-chirpy*/)",
+      "Read(//c/Users/SSAFY/Desktop/myblog/hayangt.github.io/$LOCALAPPDATA/Gems/gems/**)",
+      "Read(//c/Users/SSAFY/**)",
+      "Bash(ls /c/Ruby*/)",
+      "Read(//c/Users/SSAFY/Desktop/myblog/hayangt.github.io/$HOME/**)",
+      "Read(//c/Users/SSAFY/Desktop/myblog/hayangt.github.io/$HOME/.local/share/**)",
+      "Bash(where.exe ruby:*)",
+      "Read(//c//**)",
+      "Bash(ls /d/Ruby*/lib/ruby/gems/*/gems/jekyll-theme-chirpy*)"
+    ]
+  }
+}
