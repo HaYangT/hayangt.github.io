@@ -12,7 +12,8 @@ permalink: /
     <p class="portfolio-kicker">Software Engineer</p>
     <h1>{{ profile.name }}</h1>
     <p class="portfolio-lead">{{ profile.headline }}</p>
-    <p class="portfolio-summary">{{ profile.summary }}</p>
+    <p class="portfolio-summary">{{ profile.greeting }}</p>
+    <blockquote class="portfolio-quote">{{ profile.summary }}</blockquote>
     <div class="portfolio-actions">
       <a class="portfolio-button primary" href="{{ '/portfolio/' | relative_url }}">Portfolio</a>
       <a class="portfolio-button" href="{{ '/posts/' | relative_url }}">Blog</a>
@@ -42,7 +43,7 @@ permalink: /
       <article class="portfolio-project">
         <div class="portfolio-project-header">
           <div>
-            <p class="portfolio-meta">{{ featured_project.period }} · {{ featured_project.status }}</p>
+            <p class="portfolio-meta">{{ featured_project.period }}</p>
             <h3>{{ featured_project.title }}</h3>
             <p class="portfolio-project-tagline">{{ featured_project.tagline }}</p>
           </div>
@@ -50,8 +51,8 @@ permalink: /
         </div>
         <p>{{ featured_project.description }}</p>
         <ul class="portfolio-highlight-list">
-          {% for highlight in featured_project.highlights limit: 3 %}
-            <li>{{ highlight }}</li>
+          {% for contribution in featured_project.contributions limit: 3 %}
+            <li>{{ contribution.title }}</li>
           {% endfor %}
         </ul>
         <div class="portfolio-links">
@@ -69,6 +70,7 @@ permalink: /
     <div class="portfolio-contact">
       <a href="{{ profile.github }}" target="_blank" rel="noopener">GitHub</a>
       <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+      <a href="tel:{{ profile.mobile | remove: '-' }}">{{ profile.mobile }}</a>
     </div>
   </section>
 </div>
