@@ -70,7 +70,6 @@ permalink: /
     <div class="portfolio-contact">
       <a href="{{ profile.github }}" target="_blank" rel="noopener">GitHub</a>
       <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
-      <a href="tel:{{ profile.mobile | remove: '-' }}">{{ profile.mobile }}</a>
     </div>
   </section>
 </div>

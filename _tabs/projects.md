@@ -21,10 +21,6 @@ layout: page
     </div>
     <dl class="portfolio-contact-list">
       <div>
-        <dt>Mobile</dt>
-        <dd>{{ profile.mobile }}</dd>
-      </div>
-      <div>
         <dt>Email</dt>
         <dd><a href="mailto:{{ profile.email }}">{{ profile.email }}</a></dd>
       </div>

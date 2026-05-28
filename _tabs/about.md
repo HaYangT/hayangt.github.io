@@ -36,6 +36,5 @@ SW 엔지니어 {{ profile.name }}입니다.
 
 ## Contact
 
-- Mobile: {{ profile.mobile }}
 - GitHub: [{{ profile.github }}]({{ profile.github }})
 - Email: [{{ profile.email }}](mailto:{{ profile.email }})
